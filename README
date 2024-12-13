@@ -1,0 +1,16 @@
+
+cd /data/yocto-labs/
+source poky/oe-init-build-env
+
+MACHINE=stm32mp1 bitbake core-image-minimal
+
+../yocto-labs/build/tmp/deploy/images/stm32mp1
+
+./create_sdcard_from_flashlayout.sh ../flashlayout_core-image-minimal/extensible/FlashLayout_sdcard_stm32mp157f-dk2-extensible.tsv 
+
+lashLayout_sdcard_stm32mp157f-dk2-extensible.how_to_update.txt
+FlashLayout_sdcard_stm32mp157f-dk2-extensible.raw
+
+/yocto-labs/openstlinux-5.10-dunfell-mp1-21-03-31/build-openstlinuxweston-stm32mp1/tmp-glibc/deploy/images/stm32mp1/scripts
+
+picocom /dev/ttyACM0

@@ -1,0 +1,83 @@
+{
+    "bitbake.pathToBitbakeFolder": "${workspaceFolder}/data/yocto-labs/poky/bitbake",
+    "bitbake.pathToEnvScript": "${workspaceFolder}/data/yocto-labs/poky/oe-init-build-env",
+    "bitbake.pathToBuildFolder": "${workspaceFolder}/data/yocto-labs/build",
+    "bitbake.commandWrapper": "",
+    "bitbake.workingDirectory": "${workspaceFolder}",
+    "files.exclude": {
+        "**/.git/**": true,
+        "**/_build/**": true,
+        "**/buildhistory/**": true,
+        "**/cache/**": true,
+        "**/downloads/**": true,
+        "**/node_modules/**": true,
+        "**/oe-logs/**": true,
+        "**/oe-workdir/**": true,
+        "**/sstate-cache/**": true,
+        "**/tmp*/**": true,
+        "**/workspace/attic/**": true,
+        "**/workspace/sources/**": true
+    },
+    "files.watcherExclude": {
+        "**/.git/**": true,
+        "**/_build/**": true,
+        "**/buildhistory/**": true,
+        "**/cache/**": true,
+        "**/downloads/**": true,
+        "**/node_modules/**": true,
+        "**/oe-logs/**": true,
+        "**/oe-workdir/**": true,
+        "**/sstate-cache/**": true,
+        "**/tmp*/**": true,
+        "**/workspace/attic/**": true,
+        "**/workspace/sources/**": true
+    },
+    "python.analysis.exclude": [
+        "**/_build/**",
+        "**/.git/**",
+        "**/buildhistory/**",
+        "**/cache/**",
+        "**/downloads/**",
+        "**/node_modules/**",
+        "**/oe-logs/**",
+        "**/oe-workdir/**",
+        "**/sstate-cache/**",
+        "**/tmp*/**",
+        "**/workspace/attic/**",
+        "**/workspace/sources/**"
+    ],
+    "files.associations": {
+        "*.conf": "bitbake",
+        "*.inc": "bitbake"
+    },
+    "python.autoComplete.extraPaths": [
+        "${workspaceFolder}/bitbake/lib",
+        "${workspaceFolder}/meta/lib",
+        "${workspaceFolder}/dk2/data/yocto-labs/bitbake/lib",
+        "${workspaceFolder}/dk2/data/yocto-labs/meta/lib",
+        "${workspaceFolder}/dk2/data/yocto-labs//poky/binbitbake/lib",
+        "${workspaceFolder}/dk2/data/yocto-labs/poky/meta/lib",
+        "${workspaceFolder}/dk2/data/yocto-labs//poky/bin/bitbake/lib",
+        "${workspaceFolder}/dk2/data/yocto-labs/poky/bin/meta/lib",
+        "${workspaceFolder}/dk2/data/yocto-labs/poky/bin/bitbake/lib",
+        "${workspaceFolder}/dk2/data/yocto-labs/poky/bitbake/lib",
+        "${workspaceFolder}/data/yocto-labs/poky/bitbake/lib",
+        "${workspaceFolder}/data/yocto-labs/poky/meta/lib",
+        "${workspaceFolder}/data/yocto-labs/poky/bitbak/lib"
+    ],
+    "python.analysis.extraPaths": [
+        "${workspaceFolder}/bitbake/lib",
+        "${workspaceFolder}/meta/lib",
+        "${workspaceFolder}/dk2/data/yocto-labs/bitbake/lib",
+        "${workspaceFolder}/dk2/data/yocto-labs/meta/lib",
+        "${workspaceFolder}/dk2/data/yocto-labs//poky/binbitbake/lib",
+        "${workspaceFolder}/dk2/data/yocto-labs/poky/meta/lib",
+        "${workspaceFolder}/dk2/data/yocto-labs//poky/bin/bitbake/lib",
+        "${workspaceFolder}/dk2/data/yocto-labs/poky/bin/meta/lib",
+        "${workspaceFolder}/dk2/data/yocto-labs/poky/bin/bitbake/lib",
+        "${workspaceFolder}/dk2/data/yocto-labs/poky/bitbake/lib",
+        "${workspaceFolder}/data/yocto-labs/poky/bitbake/lib",
+        "${workspaceFolder}/data/yocto-labs/poky/meta/lib",
+        "${workspaceFolder}/data/yocto-labs/poky/bitbak/lib"
+    ]
+}
