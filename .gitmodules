@@ -1,0 +1,3 @@
+[submodule ".devcontainer"]
+	path = .devcontainer
+	url = git@github.com:nikosamus/yocto-builder-devcontainer.git
