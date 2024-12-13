@@ -1,1 +1,5 @@
 data/yocto-labs/build/*
+!data/yocto-labs/build/conf
+
+data/yocto-labs/openstlinux-6.6-yocto-scarthgap-mpu-v24.12.05/build-openstlinuxweston-stm32mp1
+!data/yocto-labs/openstlinux-6.6-yocto-scarthgap-mpu-v24.12.05/build-openstlinuxweston-stm32mp1/conf
