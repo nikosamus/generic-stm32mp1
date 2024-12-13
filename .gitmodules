@@ -1,3 +1,12 @@
 [submodule ".devcontainer"]
 	path = .devcontainer
 	url = git@github.com:nikosamus/yocto-builder-devcontainer.git
+[submodule "data/yocto-labs/meta-openembedded"]
+	path = data/yocto-labs/meta-openembedded
+	url = git://git.openembedded.org/meta-openembedded
+[submodule "data/yocto-labs/poky"]
+	path = data/yocto-labs/poky
+	url = git://git.yoctoproject.org/poky.git
+[submodule "data/yocto-labs/meta-st-stm32mp"]
+	path = data/yocto-labs/meta-st-stm32mp
+	url = https://github.com/STMicroelectronics/meta-st-stm32mp.git
